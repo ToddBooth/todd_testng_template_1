@@ -2,6 +2,7 @@
     <test name="Before and After Test Annotations">
         <classes>
             <class name="org.teacher_todd.CalculatorTest"/>
+            <class name="org.teacher_todd.CalculatorTest2"/>
         </classes>
     </test>
 </suite>

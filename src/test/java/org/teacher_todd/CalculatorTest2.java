@@ -3,8 +3,7 @@ package org.teacher_todd;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-public class CalculatorTest {
-
+public class CalculatorTest2 {
     Calculator calc;
 
     @BeforeClass
