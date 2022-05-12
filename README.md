@@ -1,1 +1,1 @@
-# Teacher Todd's selenium template repository
+# Teacher Todd's TestNG template repository
