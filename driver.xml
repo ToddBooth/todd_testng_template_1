@@ -1,0 +1,7 @@
+<suite name="Before and After Test Demo">
+    <test name="Before and After Test Annotations">
+        <classes>
+            <class name="org.teacher_todd.CalculatorTest"/>
+        </classes>
+    </test>
+</suite>
