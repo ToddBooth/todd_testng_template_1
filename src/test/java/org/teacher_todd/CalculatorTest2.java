@@ -60,6 +60,6 @@ public class CalculatorTest2 {
     public void testDivide() {
         Assert.assertEquals(calc.divide(6,3), 2);
         Assert.assertEquals(calc.divide(4,0), 0);
-        Assert.assertEquals(calc.divide(3,1), 3);
+        Assert.assertEquals(calc.divide(10,5), 2);
     }
 }
