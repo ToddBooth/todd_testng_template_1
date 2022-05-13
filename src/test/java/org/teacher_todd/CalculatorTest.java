@@ -2,6 +2,7 @@ package org.teacher_todd;
 
 import org.testng.Assert;
 import org.testng.annotations.*;
+import static org.testng.Assert.assertEquals;
 
 public class CalculatorTest {
 
@@ -41,26 +42,26 @@ public class CalculatorTest {
 
     @Test
     public void testAdd(){
-        Assert.assertEquals(calc.add(2,3), 5);
-        Assert.assertEquals(calc.add(0,1), 1);
+        assertEquals(calc.add(2,3), 5);
+        assertEquals(calc.add(0,1), 1);
     }
 
     @Test
     public void testSubtract(){
-        Assert.assertEquals(calc.subtract(2,3), -1);
-        Assert.assertEquals(calc.subtract(3,2), 1);
+        assertEquals(calc.subtract(2,3), -1);
+        assertEquals(calc.subtract(3,2), 1);
     }
 
     @Test
     public void testMultiply() {
-        Assert.assertEquals(calc.multiply(2,3), 6);
-        Assert.assertEquals(calc.multiply(1,4), 4);
+        assertEquals(calc.multiply(2,3), 6);
+        assertEquals(calc.multiply(1,4), 4);
     }
 
     @Test
     public void testDivide() {
-        Assert.assertEquals(calc.divide(6,3), 2);
-        Assert.assertEquals(calc.divide(4,0), 0);
-        Assert.assertEquals(calc.divide(3,1), 3);
+        assertEquals(calc.divide(6,3), 2);
+        assertEquals(calc.divide(4,0), 0);
+        assertEquals(calc.divide(3,1), 3);
     }
 }
