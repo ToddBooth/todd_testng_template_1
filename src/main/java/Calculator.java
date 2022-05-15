@@ -1,5 +1,3 @@
-package org.teacher_todd;
-
 import org.testng.Assert;
 import org.testng.annotations.*;
 
