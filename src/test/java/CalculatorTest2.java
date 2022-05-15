@@ -36,25 +36,25 @@ public class CalculatorTest2 {
         System.out.println("After Method Setup");
     }
 
-    @Test
+    @Test(priority = 2)
     public void testAdd(){
         Assert.assertEquals(calc.add(2,3), 5);
         Assert.assertEquals(calc.add(0,1), 1);
     }
 
-    @Test
+    @Test(priority = 3)
     public void testSubtract(){
         Assert.assertEquals(calc.subtract(2,3), -1);
         Assert.assertEquals(calc.subtract(3,2), 1);
     }
 
-    @Test
+    @Test(priority = 1)
     public void testMultiply() {
         Assert.assertEquals(calc.multiply(2,3), 6);
         Assert.assertEquals(calc.multiply(1,4), 4);
     }
 
-    @Test
+    @Test(priority = 4)
     public void testDivide() {
         Assert.assertEquals(calc.divide(6,3), 2);
         Assert.assertEquals(calc.divide(4,0), 0);
