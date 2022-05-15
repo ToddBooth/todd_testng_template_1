@@ -1,8 +1,8 @@
 <suite name="Before and After Test Demo">
     <test name="Before and After Test Annotations">
         <classes>
-            <class name="org.teacher_todd.CalculatorTest"/>
-            <class name="org.teacher_todd.CalculatorTest2"/>
+            <class name="CalculatorTest"/>
+            <class name="CalculatorTest2"/>
         </classes>
     </test>
 </suite>
